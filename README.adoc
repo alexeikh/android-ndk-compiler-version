@@ -1,0 +1,16 @@
+= Compiler Version Check
+
+Native command-line app for Android. Android NDK is required for buiding.
+
+Outputs version of NDK, compiler and STL.
+
+Build as:
+
+ make build
+
+Run as:
+
+ make run
+
+When trying to run, exactly one Android device must be connected
+or exactly one emulator running.
