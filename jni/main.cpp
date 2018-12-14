@@ -40,12 +40,10 @@ int main() {
     std::cout << "C++ support level of the compiler (__cplusplus): " << __cplusplus << "\n";
 
 #if _LIBCPP_VERSION
-
     std::cout << "STL: libc++ version " << _LIBCPP_VERSION << "\n";
 #  if _LIBCPP_STD_VER
     std::cout << "C++ standard version of libc++ (_LIBCPP_STD_VER): " << _LIBCPP_STD_VER << "\n";
 #  endif
-
 #elif __GLIBCXX__
     std::cout << "STL: libstdc++ version " << __GLIBCXX__ << "\n";
 #endif
