@@ -50,6 +50,11 @@ int main() {
     std::cout << "STL: libstdc++ version " << __GLIBCXX__ << "\n";
 #endif
 
+#ifdef __gnu_linux__
+    std::cout << "__gnu_linux__ is defined as: " << __gnu_linux__ << "\n";
+#else
+    std::cout << "__gnu_linux__ is not defined\n";
+#endif
 
     return 0;
 }
