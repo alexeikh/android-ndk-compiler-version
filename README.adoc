@@ -4,7 +4,8 @@ Native command-line app for Android. Android NDK is required for building.
 
 Outputs version of NDK, compiler, STL and some related info.
 
-In order to build:
+
+== How to build
 
 * Set `NDK_BUILD` in `Makefile` according to where Android NDK is installed.
 * If you want, adjust settings in `jni/Application.mk`.
@@ -13,7 +14,8 @@ In order to build:
 make build
 ```
 
-In order to run app:
+
+== How to run
 
 * Either connect exactly one Android device to your PC or start exactly one Android emulator.
 * Make sure that `adb` is in your `PATH`.
